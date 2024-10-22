@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ehK++my3gHQ1UlsExdiW509AGUPMsafksn9J7+vroBg=",
+  "Source": "Costium.Api",
+  "BasePath": "_content/Costium.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
