@@ -15,3 +15,4 @@ C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Infra\obj\Debu
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Infra\obj\Debug\net8.0\Costium.Infra.pdb
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Infra\obj\Debug\net8.0\Costium.Infra.genruntimeconfig.cache
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Infra\obj\Debug\net8.0\ref\Costium.Infra.dll
+C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Infra\obj\Debug\net8.0\Costium.Infra.sourcelink.json

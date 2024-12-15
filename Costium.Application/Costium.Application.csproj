@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Costium.Domain\Costium.Domain.csproj" />
+    <ProjectReference Include="..\Costium.Infra\Costium.Infra.csproj" />
+  </ItemGroup>
+
 </Project>

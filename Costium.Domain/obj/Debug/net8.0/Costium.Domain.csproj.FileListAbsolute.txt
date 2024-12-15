@@ -9,3 +9,4 @@ C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Domain\obj\Deb
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Domain\obj\Debug\net8.0\refint\Costium.Domain.dll
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Domain\obj\Debug\net8.0\Costium.Domain.pdb
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Domain\obj\Debug\net8.0\ref\Costium.Domain.dll
+C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Domain\obj\Debug\net8.0\Costium.Domain.sourcelink.json

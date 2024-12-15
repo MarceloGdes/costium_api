@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "Costium.Api.Controllers.UserController",
+    "Method": "Add",
+    "RelativePath": "api/v1/User",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Costium.Domain.Dtos.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

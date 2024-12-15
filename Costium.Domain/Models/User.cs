@@ -19,8 +19,6 @@ public class User
     [StringLength(255)]
     public required string PasswordHash { get; set; }
 
-    [Required]
-    public DateOnly DateBirth { get; set; }
-
-    public DateTime CreatedAt { get; set; }
+    // Define o valor padrão como a data atual
+    public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 }

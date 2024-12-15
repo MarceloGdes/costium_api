@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("a594fbb1-7016-4805-af22-dc98f7131fc7")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6292877cd556303e7e46a861fdc41bf882307b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+10c9573a46b817de8094745eb79299b6d29ee072")]
 [assembly: System.Reflection.AssemblyProductAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
