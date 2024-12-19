@@ -91,3 +91,4 @@ C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Api\bin\Debug\
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Api\obj\Debug\net8.0\Costium.Api.sourcelink.json
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Api\bin\Debug\net8.0\Costium.Application.dll
 C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Api\bin\Debug\net8.0\Costium.Application.pdb
+C:\Users\Marcelo\Documents\Programação\Projects\Costium\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

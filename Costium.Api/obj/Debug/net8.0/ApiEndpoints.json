@@ -2,7 +2,7 @@
   {
     "ContainingType": "Costium.Api.Controllers.UserController",
     "Method": "Add",
-    "RelativePath": "api/v1/User",
+    "RelativePath": "api/v1/user",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
