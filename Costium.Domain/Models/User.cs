@@ -7,7 +7,7 @@ public class User
 {
     [Key] // Define a chave primária
     [DatabaseGenerated(DatabaseGeneratedOption.None)] //Chave gerada pelo código.
-    public string Id { get; set; } = Ulid.NewUlid().ToString();
+    public Ulid Id { get; set; } = Ulid.NewUlid();
 
     [Required]
     [StringLength(60)]

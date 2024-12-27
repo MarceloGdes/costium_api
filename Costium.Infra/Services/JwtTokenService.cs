@@ -10,11 +10,11 @@ public class JwtTokenService(IConfiguration config)
 {
     private readonly IConfiguration _config = config;
 
-    public string GenerateToken(Guid userId)
+    public string GenerateToken(string userId)
     {
         var claims = new[]
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId.ToString()),
+            new Claim(JwtRegisteredClaimNames.Sub, userId),
             new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
         };
 

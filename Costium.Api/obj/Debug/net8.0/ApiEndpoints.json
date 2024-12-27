@@ -9,7 +9,23 @@
     "Parameters": [
       {
         "Name": "userId",
-        "Type": "System.Guid",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Costium.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/v1/auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Costium.Domain.Dtos.LoginRequestDto",
         "IsRequired": true
       }
     ],

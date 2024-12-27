@@ -6,5 +6,5 @@ public interface IUserCommand
 {
     int AddUser(AddUserDto dto);
     void UpdateUser(UpdateUserDto dto);
-    User? GetUser(Guid id);
+    User? GetUser(string id);
 }

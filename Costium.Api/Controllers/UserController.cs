@@ -10,7 +10,7 @@ public class UserController(IUserCommand userCommand) : ControllerBase
     private readonly IUserCommand _userCommand = userCommand;
 
     [HttpGet("/{userId}")]
-    public IActionResult Get([FromRoute] Guid userId)
+    public IActionResult Get([FromRoute] string userId)
     {
 
         return Ok(_userCommand.GetUser(userId));

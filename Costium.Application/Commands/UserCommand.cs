@@ -22,9 +22,9 @@ public class UserCommand(CostiumContext context) : IUserCommand
         return _context.SaveChanges();
     }
 
-    public User? GetUser(Guid id)
+    public User? GetUser(string id)
     {
-        User? user = _context.Users.Find(id);
+        User? user = _context.Users.Find(Ulid.Parse(id));
         return user;
     }
 

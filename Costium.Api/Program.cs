@@ -2,6 +2,7 @@ using System.Text;
 using Costium.Application.Commands;
 using Costium.Domain.Interfaces;
 using Costium.Infra.Database.Context;
+using Costium.Infra.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -76,16 +77,12 @@ builder.Services.AddDbContext<CostiumContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
 
+builder.Services.AddScoped<JwtTokenService>();
+
 builder.Services.AddTransient<IUserCommand, UserCommand>();
+builder.Services.AddTransient<IAuthCommand, AuthCommand>();
 
 var app = builder.Build();
- 
-//// Aplica migrações automaticamente ao iniciar a aplicação
-//using (var scope = app.Services.CreateScope())
-//{
-//    var dbContext = scope.ServiceProvider.GetRequiredService<CostiumContext>();
-//    dbContext.Database.Migrate(); // Aplica as migrações pendentes
-//}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
