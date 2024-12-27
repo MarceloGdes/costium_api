@@ -182,3 +182,4 @@ C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Api\obj\Debug\net8.0\ref\Co
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Api\bin\Debug\net8.0\Costium.Application.dll
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Api\bin\Debug\net8.0\Costium.Application.pdb
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Api\bin\Debug\net8.0\Ulid.dll
+C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
