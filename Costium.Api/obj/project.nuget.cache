@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pmCdBjzLHrw=",
+  "dgSpecHash": "y9ZBI6N48n4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Api\\Costium.Api.csproj",
+  "projectFilePath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Costium.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marcelo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Marcelo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

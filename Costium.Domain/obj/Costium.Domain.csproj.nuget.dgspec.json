@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {}
+    "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
+    "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
         "projectName": "Costium.Domain",
-        "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
+        "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
         "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",

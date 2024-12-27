@@ -11,3 +11,16 @@ C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Domain\obj\Debug\net8.0\ref
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.pdb
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Domain\obj\Debug\net8.0\ref\Costium.Domain.dll
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\bin\Debug\net8.0\Costium.Domain.deps.json
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\bin\Debug\net8.0\Costium.Domain.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\bin\Debug\net8.0\Costium.Domain.pdb
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.AssemblyInfo.cs
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.sourcelink.json
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\refint\Costium.Domain.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\Costium.Domain.pdb
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Domain\obj\Debug\net8.0\ref\Costium.Domain.dll

@@ -2887,11 +2887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Application\\Costium.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Costium.Application.csproj",
       "projectName": "Costium.Application",
-      "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Application\\Costium.Application.csproj",
+      "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Costium.Application.csproj",
       "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Application\\obj\\",
+      "outputPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2909,11 +2909,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
-              "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj"
+            "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
+              "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Costium.Domain.csproj"
             },
-            "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj": {
-              "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj"
+            "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Costium.Infra.csproj": {
+              "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Costium.Infra.csproj"
             }
           }
         }

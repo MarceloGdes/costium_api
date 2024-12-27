@@ -1,7 +1,10 @@
+using System.Text;
 using Costium.Application.Commands;
 using Costium.Domain.Interfaces;
 using Costium.Infra.Database.Context;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 

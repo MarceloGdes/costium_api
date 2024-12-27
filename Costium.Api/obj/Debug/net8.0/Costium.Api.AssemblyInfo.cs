@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c23ce326f1dda5056ea3c25bcbc1d2b87d613b04")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9e0f0253b0ac54aaeff7d9b1f8c094f266683d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Costium.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
