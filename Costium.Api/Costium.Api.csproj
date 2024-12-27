@@ -11,10 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <ProjectReference Include="..\Costium.Application\Costium.Application.csproj" />
+    <ProjectReference Include="..\Costium.Domain\Costium.Domain.csproj" />
     <ProjectReference Include="..\Costium.Infra\Costium.Infra.csproj" />
   </ItemGroup>
 

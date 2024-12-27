@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Infra\\Costium.Infra.csproj": {}
+    "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj": {
+    "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
         "projectName": "Costium.Domain",
-        "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj",
+        "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
         "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Ulid": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Infra\\Costium.Infra.csproj": {
+    "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Infra\\Costium.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj",
         "projectName": "Costium.Infra",
-        "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Infra\\Costium.Infra.csproj",
+        "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\Costium.Infra.csproj",
         "packagesPath": "C:\\Users\\Marcelo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Infra\\obj\\",
+        "outputPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marcelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj": {
-                "projectPath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj"
+              "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj": {
+                "projectPath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj"
               }
             }
           }

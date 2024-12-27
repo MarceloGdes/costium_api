@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "ContainingType": "Costium.Api.Controllers.UserController",
+    "Method": "Get",
+    "RelativePath": "{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Costium.Api.Controllers.UserController",
+    "Method": "Add",
+    "RelativePath": "api/v1/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Costium.Domain.Dtos.AddUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

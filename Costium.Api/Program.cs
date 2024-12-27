@@ -1,3 +1,5 @@
+using Costium.Application.Commands;
+using Costium.Domain.Interfaces;
 using Costium.Infra.Database.Context;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,8 +15,10 @@ builder.Services.AddSwaggerGen();
 //
 builder.Services.AddDbContext<CostiumContext>(options =>
 {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConfiguration"));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddTransient<IUserCommand, UserCommand>();
 
 var app = builder.Build();
  

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IWT2EbAbtHs=",
+  "dgSpecHash": "Zm34s7um/ms=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Marcelo\\Documents\\Programação\\Projects\\Costium\\Costium.Domain\\Costium.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Marcelo\\Downloads\\teste\\costium_api\\Costium.Domain\\Costium.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marcelo\\.nuget\\packages\\ulid\\1.3.4\\ulid.1.3.4.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Costium.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a6292877cd556303e7e46a861fdc41bf882307b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a08b8dac1a8170ab86249f1316bfc7ddbb1aa066")]
 [assembly: System.Reflection.AssemblyProductAttribute("Costium.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Costium.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
