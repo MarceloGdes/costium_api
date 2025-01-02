@@ -1,5 +1,6 @@
 ﻿using Costium.Domain.Dtos;
 using Costium.Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Costium.Api.Controllers;
@@ -9,11 +10,12 @@ public class UserController(IUserCommand userCommand) : ControllerBase
 {
     private readonly IUserCommand _userCommand = userCommand;
 
-    [HttpGet("/{userId}")]
-    public IActionResult Get([FromRoute] string userId)
+    [Authorize]
+    [HttpGet("{id}")]
+    public IActionResult Get([FromRoute] string id)
     {
 
-        return Ok(_userCommand.GetUser(userId));
+        return Ok(_userCommand.GetUser(id));
     }
 
     [HttpPost]
