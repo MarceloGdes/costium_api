@@ -12,20 +12,38 @@ public class JwtTokenService(IConfiguration config)
 
     public string GenerateToken(string userId)
     {
-        var claims = new[]
+
+        var key = Encoding.ASCII.GetBytes(_config["Jwt:Key"]);
+        var tokenConfig = new SecurityTokenDescriptor
         {
-            new Claim(JwtRegisteredClaimNames.Sub, userId),
-            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
+            Subject = new ClaimsIdentity(
+            [
+                new Claim("userId", userId)
+            ]),
+            Expires = DateTime.UtcNow.AddHours(2),
+            SigningCredentials = new SigningCredentials(
+                new SymmetricSecurityKey(key),
+                SecurityAlgorithms.HmacSha256Signature)
         };
 
-        var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_config["Jwt:Key"]));
-        var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        var tokenHandler = new JwtSecurityTokenHandler();
+        var token = tokenHandler.CreateToken(tokenConfig);
 
-        var token = new JwtSecurityToken(
-            claims: claims,
-            expires: DateTime.Now.AddHours(2),
-            signingCredentials: creds
-        );
+
+        //var claims = new[]
+        //{
+        //    new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+        //    new Claim(JwtRegisteredClaimNames.Sub, userId)
+        //};
+
+        //var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_config["Jwt:Key"]));
+        //var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+        //var token = new JwtSecurityToken(
+        //    claims: claims,
+        //    expires: DateTime.Now.AddHours(2),
+        //    signingCredentials: creds
+        //);
 
         return new JwtSecurityTokenHandler().WriteToken(token);
     }

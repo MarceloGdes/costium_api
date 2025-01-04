@@ -13,12 +13,12 @@ public class AuthCommand(CostiumContext context, JwtTokenService jwtTokenService
     public async Task<string> Authenticate(LoginRequestDto dto)
     {
         var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == dto.Email) 
-            ?? throw new UnauthorizedAccessException("Credenciais inválidas.");
+            ?? throw new UnauthorizedAccessException("Senha ou e-mail inválidos.");
 
         if (user.PasswordHash.Equals(dto.Password))
             return _jwtTokenService.GenerateToken(user.Id.ToString());
 
-        throw new UnauthorizedAccessException("Credenciais inválidas.");
+        throw new UnauthorizedAccessException("Senha ou e-mail inválidos.");
     }
 }
 

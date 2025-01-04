@@ -81,6 +81,7 @@ builder.Services.AddScoped<JwtTokenService>();
 
 builder.Services.AddTransient<IUserCommand, UserCommand>();
 builder.Services.AddTransient<IAuthCommand, AuthCommand>();
+builder.Services.AddTransient<IExpenseTypeCommand, ExpenseTypeCommand>();
 
 var app = builder.Build();
 

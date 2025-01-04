@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Costium.Api.Controllers.ExpenseTypeController",
+    "Method": "AddExpenseType",
+    "RelativePath": "api/v1/expense-type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Costium.Domain.Dtos.AddExpenseTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Costium.Api.Controllers.UserController",
     "Method": "Add",
     "RelativePath": "api/v1/user",

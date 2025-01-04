@@ -16,6 +16,12 @@ C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Application\obj\Debug\net8.
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Application\obj\Debug\net8.0\refint\Costium.Application.dll
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.pdb
 C:\Users\Marcelo\Downloads\teste\costium_api\Costium.Application\obj\Debug\net8.0\ref\Costium.Application.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.csproj.AssemblyReference.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.AssemblyInfoInputs.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.AssemblyInfo.cs
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.csproj.CoreCompileInputs.cache
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.sourcelink.json
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Application.deps.json
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Application.dll
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Application.pdb
@@ -23,12 +29,6 @@ C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Cos
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Infra.dll
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Domain.pdb
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\bin\Debug\net8.0\Costium.Infra.pdb
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.csproj.AssemblyReference.cache
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.AssemblyInfoInputs.cache
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.AssemblyInfo.cs
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.csproj.CoreCompileInputs.cache
-C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.sourcelink.json
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium..04E0E89E.Up2Date
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\Costium.Application.dll
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Application\obj\Debug\net8.0\refint\Costium.Application.dll
