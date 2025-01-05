@@ -36,12 +36,12 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
 
     [Authorize]
     [HttpGet]
-    public async Task<IActionResult> GetExpenseTypes()
+    public async Task<IActionResult> GetExpenseTypes([FromQuery] int pageNumber, int pageQuantity)
     {
         var userId = User.FindFirst("userId")?.Value;
         return userId == null
             ? Unauthorized("Não autorizado, realize login novamente.")
-            : Ok(await _command.GetAll(userId));
+            : Ok(await _command.GetAll(userId, pageNumber, pageQuantity));
     }
 
     [Authorize]
@@ -57,7 +57,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
             ? NoContent()
             : StatusCode(
                 StatusCodes.Status500InternalServerError, 
-                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tarde");
+                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tardel");
     }
 
     [Authorize]
@@ -72,7 +72,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
             ? NoContent()
             : StatusCode(
                 StatusCodes.Status500InternalServerError,
-                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tarde");
+                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tarde.");
     }
 
 }

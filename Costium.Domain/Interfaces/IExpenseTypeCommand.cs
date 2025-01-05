@@ -7,6 +7,6 @@ public interface IExpenseTypeCommand
     Task<int> Delete(string expenseTypeId, string userId);
     Task<int> Update(UpdateExpenseTypeDto dto, string expenseTypeId, string userId);
     Task<GetExpenseTypeDto> Get(string expenseTypeId, string userId);
-    Task<List<GetExpenseTypeDto>> GetAll(string userId);
+    Task<List<GetExpenseTypeDto>> GetAll(string userId, int pageNumber, int pageQuantity);
 }
 
