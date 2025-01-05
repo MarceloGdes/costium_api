@@ -1,18 +1,15 @@
-﻿using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using Costium.Domain.Dtos;
+﻿using Costium.Domain.Dtos;
 using Costium.Domain.Interfaces;
 using Costium.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Costium.Api.Controllers;
-[Route("api/v1/expense-type")]
+[Route("api/v1/expense-types")]
 [ApiController]
 public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : ControllerBase
 {
-    IExpenseTypeCommand _command = expenseTypeCommand;
+    private readonly IExpenseTypeCommand _command = expenseTypeCommand;
 
     [Authorize]
     [HttpPost]
@@ -21,6 +18,61 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
         var userIdClaim = User.FindFirst("userId")?.Value;
         if (userIdClaim == null) return Unauthorized("Não autorizado, realize login novamente.");
 
-        return Ok(await _command.Add(dto, userIdClaim.ToString()));
+        var expenseTypeId = await _command.Add(dto, userIdClaim);
+        var resourseUrl = Url.Action(nameof(GetExpenseType), new { id = expenseTypeId });
+
+        return Created(resourseUrl, new { id = expenseTypeId });
     }
+
+    [Authorize]
+    [HttpGet("{id}")]
+    public async Task<IActionResult> GetExpenseType([FromRoute] string id)
+    {
+        var userId = User.FindFirst("userId")?.Value;
+        return userId == null 
+            ? Unauthorized("Não autorizado, realize login novamente.") 
+            : Ok(await _command.Get(id, userId));
+    }
+
+    [Authorize]
+    [HttpGet]
+    public async Task<IActionResult> GetExpenseTypes()
+    {
+        var userId = User.FindFirst("userId")?.Value;
+        return userId == null
+            ? Unauthorized("Não autorizado, realize login novamente.")
+            : Ok(await _command.GetAll(userId));
+    }
+
+    [Authorize]
+    [HttpPut("{id}")]
+    public async Task<IActionResult> UpdateExpenseType(
+        [FromRoute] string id, [FromBody] UpdateExpenseTypeDto dto)
+    {
+        var userId = User.FindFirst("userId")?.Value;
+        if (userId == null)
+            return Unauthorized("Não autorizado, realize login novamente.");
+
+        return await _command.Update(dto, id, userId) >= 1
+            ? NoContent()
+            : StatusCode(
+                StatusCodes.Status500InternalServerError, 
+                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tarde");
+    }
+
+    [Authorize]
+    [HttpDelete("{id}")]
+    public async Task<IActionResult> DeleteExpenseType([FromRoute] string id)
+    {
+        var userId = User.FindFirst("userId")?.Value;
+        if (userId == null) 
+            return Unauthorized("Não autorizado, realize login novamente.");
+
+        return await _command.Delete(id, userId) >= 1
+            ? NoContent()
+            : StatusCode(
+                StatusCodes.Status500InternalServerError,
+                "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tarde");
+    }
+
 }
