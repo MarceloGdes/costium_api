@@ -40,7 +40,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
     {
         var userId = User.FindFirst("userId")?.Value;
         return userId == null
-            ? Unauthorized("Não autorizado, realize login novamente.")
+            ? throw new HttpRequestException("Não autorizado, realize login novamente.", null, System.Net.HttpStatusCode.Unauthorized)
             : Ok(await _command.GetAll(userId, pageNumber, pageQuantity));
     }
 

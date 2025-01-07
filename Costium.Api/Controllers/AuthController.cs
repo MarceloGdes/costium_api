@@ -12,14 +12,7 @@ public class AuthController(IAuthCommand authCommand) : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginRequestDto dto)
     {
-        try
-        {
-            var token = await _authCommand.Authenticate(dto);
-            return Ok(new { Token = token });
-        }
-        catch (UnauthorizedAccessException ex)
-        {
-            return Unauthorized(new { Message = ex.Message });
-        }
+        var token = await _authCommand.Authenticate(dto);
+        return Ok(new { Token = token });
     }
 }

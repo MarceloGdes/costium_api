@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B1309BA-C413-436B-B2A6-7E73219CE7CF}|Costium.Infra\\Costium.Infra.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.infra\\migrations\\costiumcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B1309BA-C413-436B-B2A6-7E73219CE7CF}|Costium.Infra\\Costium.Infra.csproj|solutionrelative:costium.infra\\migrations\\costiumcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B1309BA-C413-436B-B2A6-7E73219CE7CF}|Costium.Infra\\Costium.Infra.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.infra\\migrations\\20250107024241_initialfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B1309BA-C413-436B-B2A6-7E73219CE7CF}|Costium.Infra\\Costium.Infra.csproj|solutionrelative:costium.infra\\migrations\\20250107024241_initialfirstmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\expensetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\expensetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF5F3507-F5B7-436D-B13F-63E024E1A185}|Costium.Application\\Costium.Application.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.application\\commands\\authcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF5F3507-F5B7-436D-B13F-63E024E1A185}|Costium.Application\\Costium.Application.csproj|solutionrelative:costium.application\\commands\\authcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BF5F3507-F5B7-436D-B13F-63E024E1A185}|Costium.Application\\Costium.Application.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.application\\commands\\expensetypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF5F3507-F5B7-436D-B13F-63E024E1A185}|Costium.Application\\Costium.Application.csproj|solutionrelative:costium.application\\commands\\expensetypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\expensetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\expensetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BA60CBA8-861C-48C8-952F-F0CFA15B8137}|Costium.Domain\\Costium.Domain.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.domain\\interfaces\\iexpensetypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA60CBA8-861C-48C8-952F-F0CFA15B8137}|Costium.Domain\\Costium.Domain.csproj|solutionrelative:costium.domain\\interfaces\\iexpensetypecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|c:\\users\\marcelo\\documents\\programa\u00E7\u00E3o\\projects\\costiumproject\\costium_api\\costium.api\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6717751D-6300-41DD-A68B-7E5588721131}|Costium.Api\\Costium.Api.csproj|solutionrelative:costium.api\\controllers\\throwcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,24 +59,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CostiumContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Migrations\\CostiumContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Costium.Infra\\Migrations\\CostiumContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Migrations\\CostiumContextModelSnapshot.cs",
+              "RelativeToolTip": "Costium.Infra\\Migrations\\CostiumContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T02:45:26.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250107024241_InitialFirstMigration.cs",
+              "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Migrations\\20250107024241_InitialFirstMigration.cs",
+              "RelativeDocumentMoniker": "Costium.Infra\\Migrations\\20250107024241_InitialFirstMigration.cs",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Infra\\Migrations\\20250107024241_InitialFirstMigration.cs",
+              "RelativeToolTip": "Costium.Infra\\Migrations\\20250107024241_InitialFirstMigration.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T02:42:42.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Costium.Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Costium.Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:37:02.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Commands\\AuthCommand.cs",
+              "RelativeDocumentMoniker": "Costium.Application\\Commands\\AuthCommand.cs",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Commands\\AuthCommand.cs",
+              "RelativeToolTip": "Costium.Application\\Commands\\AuthCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:36:36.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Costium.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Costium.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-05T23:36:28.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Program.cs",
               "RelativeDocumentMoniker": "Costium.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Program.cs*",
-              "RelativeToolTip": "Costium.Api\\Program.cs*",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAowF0AAAABAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Program.cs",
+              "RelativeToolTip": "Costium.Api\\Program.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowF0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T23:05:19.959Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "ThrowController.cs",
               "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\ThrowController.cs",
               "RelativeDocumentMoniker": "Costium.Api\\Controllers\\ThrowController.cs",
-              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\ThrowController.cs*",
-              "RelativeToolTip": "Costium.Api\\Controllers\\ThrowController.cs*",
+              "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\ThrowController.cs",
+              "RelativeToolTip": "Costium.Api\\Controllers\\ThrowController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T22:55:27.117Z",
@@ -64,39 +149,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ExpenseTypeController.cs",
               "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\ExpenseTypeController.cs",
               "RelativeDocumentMoniker": "Costium.Api\\Controllers\\ExpenseTypeController.cs",
               "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Api\\Controllers\\ExpenseTypeController.cs",
               "RelativeToolTip": "Costium.Api\\Controllers\\ExpenseTypeController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowCoAAACGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T22:49:30.185Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ExpenseTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Commands\\ExpenseTypeCommand.cs",
               "RelativeDocumentMoniker": "Costium.Application\\Commands\\ExpenseTypeCommand.cs",
               "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Application\\Commands\\ExpenseTypeCommand.cs",
               "RelativeToolTip": "Costium.Application\\Commands\\ExpenseTypeCommand.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCoAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCoAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T22:43:34.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "IExpenseTypeCommand.cs",
               "DocumentMoniker": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Interfaces\\IExpenseTypeCommand.cs",
               "RelativeDocumentMoniker": "Costium.Domain\\Interfaces\\IExpenseTypeCommand.cs",
               "ToolTip": "C:\\Users\\Marcelo\\Documents\\Programa\u00E7\u00E3o\\Projects\\CostiumProject\\costium_api\\Costium.Domain\\Interfaces\\IExpenseTypeCommand.cs",
               "RelativeToolTip": "Costium.Domain\\Interfaces\\IExpenseTypeCommand.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA5wAkAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T22:42:41.935Z",
               "EditorCaption": ""
