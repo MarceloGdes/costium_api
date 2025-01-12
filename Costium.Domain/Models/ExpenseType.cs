@@ -15,8 +15,8 @@ public class ExpenseType
     [Required]
     public Ulid UserId { get; set; }
 
-    //[ForeignKey(nameof(UserId))]
-    //public required User User { get; set; }
+    [ForeignKey(nameof(UserId))]
+    public User? User { get; set; }
 
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

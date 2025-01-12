@@ -4,13 +4,21 @@ using Costium.Domain.Interfaces;
 using Costium.Infra.Database.Context;
 using Costium.Infra.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ApiExplorer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.SwaggerGen;
+using WebApi.Application.Swagger;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
 
 //JWT
 builder.Services.AddAuthentication(options =>
@@ -31,17 +39,22 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
+//Api Versioning
+builder.Services.AddApiVersioning(o =>
+{
+    o.AssumeDefaultVersionWhenUnspecified = true;
+    o.DefaultApiVersion = new ApiVersion(1, 0);
+});
+
+builder.Services.AddVersionedApiExplorer(setup =>
+{
+    setup.GroupNameFormat = "'v'VVV";
+    setup.SubstituteApiVersionInUrl = true;
+});
+
 builder.Services.AddSwaggerGen(c =>
 {
-
-    c.SwaggerDoc("v1", new OpenApiInfo
-    {
-        Title = "Costium API",
-        Version = "v1",
-        Description = "API de gerenciamento de despesas"
-    });
+    c.OperationFilter<SwaggerDefaultValues>();
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -79,18 +92,28 @@ builder.Services.AddDbContext<CostiumContext>(options =>
 
 builder.Services.AddScoped<JwtTokenService>();
 
+builder.Services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerGenOptions>();
 builder.Services.AddTransient<IUserCommand, UserCommand>();
 builder.Services.AddTransient<IAuthCommand, AuthCommand>();
 builder.Services.AddTransient<IExpenseTypeCommand, ExpenseTypeCommand>();
 
 var app = builder.Build();
 
+var versionDescriptionProvider = app.Services.GetRequiredService<IApiVersionDescriptionProvider>();
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/error-development");
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(options =>
+    {
+        foreach (var desc in versionDescriptionProvider.ApiVersionDescriptions)
+        {
+            options.SwaggerEndpoint($"/swagger/{desc.GroupName}/swagger.json", 
+                $"Web API - {desc.GroupName.ToUpper()}");
+        }
+    });
 }
 else
 {

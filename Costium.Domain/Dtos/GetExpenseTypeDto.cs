@@ -1,8 +1,4 @@
-﻿using Costium.Domain.Models;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-
-namespace Costium.Domain.Dtos;
+﻿namespace Costium.Domain.Dtos;
 public class GetExpenseTypeDto
 {
     public required Ulid Id { get; set; } 

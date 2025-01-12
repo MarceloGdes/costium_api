@@ -4,8 +4,9 @@ using Costium.Domain.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Costium.Api.Controllers;
-[Route("api/v1/expense-types")]
+namespace Costium.Api.Controllers.v1;
+[Route("api/v{version:apiVersion}/expense-types")]
+[ApiVersion("1.0")]
 [ApiController]
 public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : ControllerBase
 {
@@ -29,8 +30,8 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
     public async Task<IActionResult> GetExpenseType([FromRoute] string id)
     {
         var userId = User.FindFirst("userId")?.Value;
-        return userId == null 
-            ? Unauthorized("Não autorizado, realize login novamente.") 
+        return userId == null
+            ? Unauthorized("Não autorizado, realize login novamente.")
             : Ok(await _command.Get(id, userId));
     }
 
@@ -56,7 +57,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
         return await _command.Update(dto, id, userId) >= 1
             ? NoContent()
             : StatusCode(
-                StatusCodes.Status500InternalServerError, 
+                StatusCodes.Status500InternalServerError,
                 "Erro inesperado ao atualizar o tipo de despesa. Tente novamente mais tardel");
     }
 
@@ -65,7 +66,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
     public async Task<IActionResult> DeleteExpenseType([FromRoute] string id)
     {
         var userId = User.FindFirst("userId")?.Value;
-        if (userId == null) 
+        if (userId == null)
             return Unauthorized("Não autorizado, realize login novamente.");
 
         return await _command.Delete(id, userId) >= 1

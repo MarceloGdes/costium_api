@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Costium.Infra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7978b78f6ed0dc0651c497d503a40f2c255839a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ee7d4d4afcf03989d8cde546e5512845106286d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Costium.Infra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Costium.Infra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

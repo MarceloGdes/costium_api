@@ -56,7 +56,7 @@ public class ExpenseTypeCommand(CostiumContext context, IUserCommand userCommand
             .Take(pageQuantity) //Quantidade de registros retornados
             .ToListAsync();
 
-        return expenseTypeListDto.Count > 1
+        return expenseTypeListDto.Count == 0
             ? expenseTypeListDto
             : throw new KeyNotFoundException("Não foi encontrado tipos de despesa cadastradas para seu usuário.");
     }

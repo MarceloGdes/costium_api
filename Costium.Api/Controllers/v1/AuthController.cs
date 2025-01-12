@@ -2,8 +2,9 @@
 using Costium.Domain.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Costium.Api.Controllers;
-[Route("api/v1/auth")]
+namespace Costium.Api.Controllers.v1;
+[Route("api/v{version:apiVersion}/auth")]
+[ApiVersion("1.0")]
 [ApiController]
 public class AuthController(IAuthCommand authCommand) : ControllerBase
 {

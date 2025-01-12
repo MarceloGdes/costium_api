@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Costium.Api.Controllers
+namespace Costium.Api.Controllers.v1
 {
     [ApiExplorerSettings(IgnoreApi = true)]
     public class ThrowController : ControllerBase
@@ -13,10 +13,10 @@ namespace Costium.Api.Controllers
         [Route("/error-development")] //Rota para erros em Dev.
         public IActionResult HandleErrorDevelopment([FromServices] IHostEnvironment hostEnvironment)
         {
-            if(!hostEnvironment.IsDevelopment())
+            if (!hostEnvironment.IsDevelopment())
                 return NotFound();
 
-            var exceptionHandlerFeature = 
+            var exceptionHandlerFeature =
                 HttpContext.Features.Get<IExceptionHandlerFeature>()!;
 
             return Problem(

@@ -43,6 +43,8 @@ namespace Costium.Infra.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("ExpenseType");
                 });
 
@@ -70,6 +72,17 @@ namespace Costium.Infra.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("Costium.Domain.Models.ExpenseType", b =>
+                {
+                    b.HasOne("Costium.Domain.Models.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
                 });
 #pragma warning restore 612, 618
         }

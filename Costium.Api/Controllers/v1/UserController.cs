@@ -3,8 +3,9 @@ using Costium.Domain.Interfaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Costium.Api.Controllers;
-[Route("api/v1/user")]
+namespace Costium.Api.Controllers.v1;
+[Route("api/v{version:apiVersion}/user")]
+[ApiVersion("1.0")]
 [ApiController]
 public class UserController(IUserCommand userCommand) : ControllerBase
 {
