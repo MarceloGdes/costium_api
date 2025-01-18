@@ -362,3 +362,6 @@ C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Cos
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\obj\Debug\net8.0\Costium.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
 C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Marcelo\Documents\Programação\Projects\CostiumProject\costium_api\Costium.Api\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll

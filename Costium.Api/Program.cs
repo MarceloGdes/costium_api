@@ -84,7 +84,7 @@ builder.Services.AddSwaggerGen(c =>
     });
 });
 
-//
+//SQL Connection
 builder.Services.AddDbContext<CostiumContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));

@@ -37,7 +37,7 @@ public class ExpenseTypeController(IExpenseTypeCommand expenseTypeCommand) : Con
 
     [Authorize]
     [HttpGet]
-    public async Task<IActionResult> GetExpenseTypes([FromQuery] int pageNumber, int pageQuantity)
+    public async Task<IActionResult> GetExpenseTypes([FromQuery] int pageNumber = 0, int pageQuantity = 10)
     {
         var userId = User.FindFirst("userId")?.Value;
         return userId == null

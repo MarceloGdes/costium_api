@@ -23,4 +23,6 @@ public class User
 
     // Define o valor padrão como a data atual
     public DateTime CreatedAt { get; } = DateTime.UtcNow;
+
+    public User(){}
 }

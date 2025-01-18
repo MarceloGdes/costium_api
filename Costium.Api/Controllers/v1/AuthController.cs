@@ -13,7 +13,17 @@ public class AuthController(IAuthCommand authCommand) : ControllerBase
     [HttpPost("login")]
     public async Task<IActionResult> Login([FromBody] LoginRequestDto dto)
     {
-        var token = await _authCommand.Authenticate(dto);
+        var token = await _authCommand.AuthenticateAsync(dto);
         return Ok(new { Token = token });
+    }
+
+    [HttpPost("register")]
+    public async Task<IActionResult> Register([FromBody] RegisterRequestDTO dto)
+    {
+        return await _authCommand.ResgisterAsync(dto) >= 1 
+            ? Ok() 
+            : StatusCode(
+                StatusCodes.Status500InternalServerError,
+                "Erro inesperado ao realizar a criação de conta. Por gentileza, tente novamente mais tarde.");
     }
 }
